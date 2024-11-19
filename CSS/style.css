@@ -19,6 +19,7 @@ body {
     border: 2px solid black;
     border-radius: 50px;
     padding: 0;
+    padding-bottom: 50px;
     font-size: 1.2em;
     overflow: auto;
     justify-content: center;
@@ -94,6 +95,11 @@ nav h2 {
 }
 
 @media screen and (max-width:600px) {
+    .tudo {
+        margin: 50px 2%;
+        width: 96%;
+    }
+
     nav div {
         width: 100%;
         padding: 15px;
@@ -101,5 +107,12 @@ nav h2 {
 
     nav a {
         max-width: 80%;
+    }
+
+    .texto {
+        margin: 10%;
+    }
+    .texto h2{
+        text-align: center;
     }
 }
