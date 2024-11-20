@@ -63,6 +63,7 @@ nav a {
     text-decoration: none;
     max-width: 50%;
     margin: 0 auto;
+    border-bottom: hsl(0, 0%, 60%) solid 1px;
 }
 
 nav a:hover {

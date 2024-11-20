@@ -22,13 +22,464 @@
             <div style="border-left: 1px solid #333;">
                 <h2>Tópicos:</h2>
                 <ul>
-                    <li><a>dsa</a></li>
-                    <li><a>asd</a></li>
+                    <li><a href="#tempo">Tempo no combate</a></li>
+                    <li><a href="#ambiente">A influência do ambiente</a></li>
+                    <li><a href="#tipos">Tipos de ações</a></li>
+                    <li><a href="#ataque">Realizando um ataque</a></li>
+                    <li><a href="#dano">Dano, cura e morrendo</a></li>
+                    <li><a href="#fora">Recuperando-se do combate</a></li>
+                    <li><a href="#condicao">Condições</a></li>
                 </ul>
             </div>
         </nav>
         <div class="texto">
-            
+            <h2 id="tempo">Tempo no combate:</h2>
+            <p>
+                Nós dividimos combate no DUNGEONS & DRAGONS em dois conceitos principais, as rodadas e  os turnos, que são responsáveis por deixar uma luta ou briga 
+                organizada, deixando todos os personagens engajados no combate atacar e realizar suas ações.<br>
+                A <b>rodada</b> divide o combate em diversas partes, do começo ao fim. Cada rodada, normalmente, representa um espaço de tempo de 6 segundos e, durante 
+                ela, cada participante age. As rodadas são divididas em ,<b>turnos</b>, onde cada personagem do combate tem o seu. Os turnos são organizados pela 
+                iniciativa rolada no começo do combate, quando cada player e NPC rola um dado e, aquele que tirar o maior valor tem seu turno primeiro, o segundo maior 
+                valor joga em segundo e assim por diante. <br>
+                A <b>iniciativa</b> é um teste de Destreza, sem perícia envolvida, que cada persongaem do combate faz. No caso do seu teste de iniciativa empatar com o 
+                de outro jogador, você deve entrar em um consenso com ele sobre quem age primeiro e, no caso de empatar com um monstro, o Mestre tem o poder de decidir 
+                a ordem. <br>
+                Em alguns casos, uma lado da participantes não esperava um combate, chamamos isso de <b>surpresa</b>. Essas situações são comuns, e podem ocorrer quando 
+                goblins te surpreenderem no meio de uma trilha ou quando você tentar assassinar alguém enquanto permanece assim. No caso de você estar surpreso em um 
+                combate, você perde a chance de agir no seu primeiro turno, não podendo se mover nem reagir.
+            </p>
+            <h2 id="ambiente">A influência do ambiente:</h2>
+            <p>
+                O combate não se resume a apenas atacar e, frequentemente, é ganho por aqueles que possuem a melhor estratégia e melhor se adaptam ao ambiente. Os 
+                principais aspectos que você pode se deparar em um combate são:
+                <ul>
+                    <li>
+                        <b>Luz:</b> A presença ou ausência de luz em um ambiente cria três categorias de iluminação: luz plena, penumbra e escuridão:
+                        <ul>
+                            <li>
+                                <b>Luz plena</b> permite que a maioria das criaturas possa enxergar normalmente. Mesmo dias nublados fornecem luz plena, assim como 
+                                tochas, lanternas, fogueiras e outras fontes de iluminação dentro de um raio específico. 
+                            </li>
+                            <li>
+                                <b>Penumbra</b>, também chamada de sombras, cria uma área de escuridão leve. Uma área de penumbra é geralmente o limite entre uma fonte 
+                                de luz plena, como uma tocha, e a escuridão em volta dela. Na penumbra, as criaturas possuem desvantagem em testes de Sabedoria 
+                                (Percepção).
+                            </li>
+                            <li>
+                                <b>Escuridão total</b>, cria uma área de escuridão densa. Personagens enfrentam a escuridão total quando estão ao ar livre durante a 
+                                noite, dentro dos limites de uma masmorra fechada ou nas entranhas do subterrâneo, ou em uma área de escuridão mágica. A escuridão 
+                                total está efetivamente cega (ver lista de condições).
+                            </li>
+                        </ul>
+                        Existe também características racias, habilidades e magias que melhoram a sua visão, como a <b>percepção às cegas</b>, que criaturas sem olhos 
+                        ou com eco localização, como morcegos, possuem usam para perceber os arredores sem depender da quantidade de luz. Além dela, a <b>visão no 
+                        escuro</b> te possibilita, dentro do alcance da habilidade, enxergar penumbra como luz plena e escuridão total como penumbra.
+                    </li>
+                    <li>
+                        <b>Cobertura:</b> Paredes, árvores, criaturas e outros obstáculos podem fornecer cobertura durante o combate, fazendo o alvo ser mais difícil 
+                        de ser acertado. O alvo pode se beneficiar da cobertura apenas quando o ataque ou outro efeito se origina do lado oposto da cobertura. São 
+                        três graus de cobertura:
+                        <ul>
+                            <li>
+                                <b>Meia-cobertura:</b> esse alvo possui +2 na CA e nos testes de resistência de Destreza. Ele tem meia-cobertura quando um obstáculo 
+                                bloqueia pelo menos metade de seu corpo. O obstáculo pode ser uma mureta, uma parte de uma mobília grande, um tronco de árvore estreito 
+                                ou uma criatura, seja ela inimiga ou amigável.
+                            </li>
+                            <li>
+                                <b>Três-quartos de cobertura:</b> esse alvo tem +5 de bônus na CA e nos testes de resistência de Destreza. Ele possui cobertura superior 
+                                quando, pelo menos, três quartos do seu corpo é coberto por um obstáculo. O obstáculo pode ser uma grade levadiça, uma seteira ou um 
+                                tronco de árvore mais robusto. 
+                            </li>
+                            <li>
+                                <b>Cobertura total:</b> essa pessoa não pode ser alvo direto de um ataque ou magia, porém algumas magias podem alcançá-lo ao inclui-lo 
+                                na área de seu efeito. Um alvo tem cobertura total quando está completamente protegido por um obstáculo.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Queda:</b> A queda de uma grande altura é um dos perigos mais comuns que os aventureiros enfrentam. No final de uma queda, uma criatura 
+                        sofre 1d6 de dano de concussão para cada 3 metros de queda, até um máximo de 20d6. A criatura ficará caida no chão, a menos que ela evite 
+                        sofrer o dano da queda. 
+                    </li>
+                    <li>
+                        <b>Asfixia:</b> Uma criatura pode segurar sua respiração por um número de minutos igual a 1 + seu modificador de Constituição (mínimo de 30 
+                        segundos). Quando uma criatura ficar sem respirar, ela pode sobreviver por um número de rodadas igual ao seu modificador de Constituição 
+                        (mínimo 1 rodada). No início do seu próximo turno, ela cai a 0 pontos de vida e está morrendo. <br>
+                        Por exemplo, uma criatura com Constituição 14 (modificador +2) pode prender a respiração por 3 minutos. Se começa a asfixia, ela terá duas 
+                        rodadas para tomar ar antes de cair a 0 pontos de vida. Se você não puder respirar ou estiver sufocando, você não pode recuperar pontos de vida 
+                        ou se estabilizar até poder respirar novamente. 
+                    </li>
+                    <li>
+                        <b>Comida:</b> quando um personagem não come ou bebe um grande perído de tempo, ele sofre exaustão (condição).
+                        <ul>
+                            <li>
+                                <b>Comida: </b>Um personagem precisa de 0,5 kg de alimento por dia e pode fazer a comida durar mais tempo sobrevivendo com meias rações. 
+                                Comer apenas 0,25 kg de alimento por dia conta como metade de um dia sem comer. Um personagem pode ficar sem comida por um número de 
+                                dias igual a 3 + seu modificador de Constituição (mínimo 1). No final de cada dia além desse limite, o personagem sofre automaticamente 
+                                um nível de exaustão. Um dia comendo normalmente redefine a contagem de dias sem comida para zero. 
+                            </li>
+                            <li>
+                                <b>Água: </b>Um personagem precisa de 3 litros de água por dia, ou 6 litros por dia se o tempo estiver quente. Um personagem que bebe 
+                                apenas metade dessa quantia deve obter sucesso em um teste de resistência de Constituição CD 15, ou sofrerá um nível de exaustão ao 
+                                final do dia. Um personagem com acesso a ainda menos água sofrerá automaticamente um nível de exaustão ao final do dia. Se o personagem 
+                                já possuir um ou mais níveis de exaustão, ele sofre dois níveis de exaustão em ambos os casos. 
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <h2 id="tipos">Tipos de ações:</h2>
+            <p>
+                No seu turno, você tem quatro ações para agir:
+            </p>
+            <h3>Ação padrão:</h3>
+            <p>
+                Quando você realiza sua ação em seu turno, você pode escolher entre uma das ações apresentadas aqui, uma ação que ganhou da sua classe ou característica 
+                especial, ou uma ação improvisada. Muitos monstros têm opções de ações próprias em seus blocos de estatísticas. Quando você descreve uma ação que não 
+                está detalhada em uma das regras, o Mestre dirá se a ação é possível e que tipo de jogada você deve realizar, se houver, para determinar o sucesso ou 
+                fracasso.
+                Exemplos de ações:
+                <ul>
+                    <li>
+                        <b>Ajudar:</b> Você pode prestar ajuda para que outra criatura complete uma atividade. Quando realiza a ação Ajudar, a criatura que você ajuda 
+                        tem vantagem no próximo teste de habilidade que ela fizer para completar a atividade que está recebendo ajuda, dado que ela realize o teste 
+                        antes do começo do seu próximo turno. <br>
+                        Alternativamente, você pode ajudar uma criatura amigável em um ataque contra uma criatura que está a até 1,5 metro de você. Você finta, distrai 
+                        o alvo ou trabalha em equipe de alguma outra forma para fazer o ataque de seu aliado mais eficaz. Se seu aliado atacar o alvo antes do seu 
+                        próximo turno, a primeira jogada de ataque que ele realizar contra o alvo tem vantagem. 
+                    </li>
+                    <li>
+                        <b>Ataque:</b> A ação mais comum para se realizar em combate é a ação de Ataque, seja golpear com uma espada, atirar uma flecha de um arco ou 
+                        lutar corpo-a-corpo com os próprios punhos. Certas características, como o Ataque Adicional do guerreiro, permitem que você realize mais de um 
+                        ataque com essa ação. 
+                    </li>
+                    <li>
+                        <b>Conjurar uma magia:</b> Conjuradores, como magos e clérigos, bem como muitos monstros, têm acesso às magias e podem usá-las com grande 
+                        efeito em combate. Cada magia possui um tempo para ser conjurada, que especifica se é necessário gastar uma ação, uma reação, minutos ou até 
+                        mesmo horas para conjurá-la. O tempo para conjurar magia, portanto, não é necessariamente uma ação. Muitas magias têm tempo para conjurar magia 
+                        de 1 ação, então frequentemente se usa uma ação em combate para conjurar a magia.
+                    </li>
+                    <li>
+                        <b>Desengajar:</b> Se você realiza a ação Desengajar, seu movimento não provoca ataques de oportunidade pelo resto do turno. 
+                    </li>
+                    <li>
+                        <b>Disparada:</b> Quando você realiza a ação de Disparada, você dobre o deslocamento para usar no seu turno.
+                    </li>
+                    <li>
+                        <b>Esconder:</b> Quando você opta pela ação Esconder, você faz um teste de Destreza (Furtividade) para tentar se esconder, que é resistido pela 
+                        percepção passiva daqueles ao seu redor. Alternativamente, alguém que está ativamente te procurando pode fazer um teste de Sabedoria (Percepção) 
+                        para te achar e, se conseguir, você está visível para essa pessoa. Se você ataca escondido, você revela sua localização.
+                    </li>
+                    <li>
+                        <b>Esquivar:</b> Quando você realiza a ação Esquivar, você se foca completamente em evitar ataques. Até o começo do seu próximo turno, qualquer 
+                        jogada de ataque contra você é feita com desvantagem se você puder ver o atacante e você tem vantagem em testes de Destreza. Você não pode 
+                        esquivar se seu deslocamento cair para 0 ou estiver incapacitado (condição).
+                    </li>
+                    <li>
+                        <b>Preparar:</b> Algumas vezes você quer saltar sobre um adversário ou quer esperar por uma circunstância particular antes de agir. Para 
+                        fazê-lo, você precisa usar a ação Preparar no seu turno para que possa agir mais tarde naquela rodada usando sua reação. Você tem até o início 
+                        do seu próximo turno para usar uma ação preparada. Ao preparar uma ação, é importante clarificar o gatilho e como agirá, por exemplo: "Se o 
+                        cultista pisar no círculo, eu vou atirar uma flecha".
+                    </li>
+                    <li>
+                        <b>Procurar:</b> Quando você realiza a ação Procurar, você foca sua atenção em encontrar algo. Dependendo da natureza da sua procura, o Mestre 
+                        pode pedir para você fazer um teste de Sabedoria (Percepção) ou um teste de Inteligência (Investigação).
+                    </li>
+                    <li>
+                        <b>Usar um objeto:</b> Você normalmente interage com um objeto enquanto faz alguma outra coisa, como quando saca sua espada como parte de um 
+                        ataque. Quando um objeto requer sua ação para usá-lo, você realiza a ação Usar um Objeto. Essa ação também é útil quando você quer interagir 
+                        com mais de um objeto por turno.
+                    </li>
+                </ul>
+            </p>
+            <h3>Deslocamento:</h3>
+            <p>
+                Em combate, personagens e monstros estão em constante movimento, frequentemente usando movimento e posição para ganhar  vantagem. No seu turno, você 
+                pode se mover uma distância igual ao seu deslocamento máximo. Pode usar o máximo ou o mínimo do seu deslocamento  durante seu turno, seguindo as regras 
+                a seguir. <br>
+                Seu movimento pode incluir saltar, escalar e nadar. Esses diferentes modos de movimento podem ser combinados com caminhada ou podem constituir  todo o 
+                seu movimento. De qualquer maneira que você esteja se movendo, você deduz a distância de cada parte de seu movimento do seu deslocamento  total, até 
+                você usá-lo por completo ou até você acabar de se mover. <br>
+                Você pode quebrar seu movimento em seu turno, usando parte do seu deslocamento antes e depois de sua ação. Por exemplo, se você tem deslocamento  de 9 
+                metros, você pode andar 3 metros, realizar sua ação e então se mover mais 6 metros.
+                <ul>
+                    <li>
+                        <b>Terreno díficil ou estar caído:</b> Um combate raramente ocorre em salas vazias ou planícies inexpressivas. Cavernas com pedras espalhadas, 
+                        florestas sufocadas por arbustos, escadarias traiçoeiras, a ambientação de uma luta típica contém terreno difícil. Cada 1,5 metro de movimento 
+                        em um terreno difícil custa 1,5 metro adicional. Essa regra é válida mesmo se houver múltiplos obstáculos em um espaço contado como terreno 
+                        difícil. O mesmo ocorre para quando você está caido, se levantar cortara seu deslocamento restante em dois.
+                    </li>
+                    <li>
+                        <b>Movendo-se próximo de outras criaturas:</b> Você pode se mover através do espaço ocupado por criaturas não hostis. Por outro lado, você pode 
+                        se mover pelo espaço de criaturas hostis apenas e essa criatura for duas categorias de tamanho maiores ou menores que você. Lembre-se que o 
+                        espaço ocupado por outra criatura é considerado terreno difícil para você. Seja uma criatura amiga ou inimiga, você não pode voluntariamente 
+                        terminar seu deslocamento no espaço dela. Se você abandonar o alcance de uma criatura hostil durante seu deslocamento, você provoca um ataque de 
+                        oportunidade, como explicado mais à frente neste capítulo. 
+                    </li>
+                    <li>
+                        <b>Outros tipos de deslocamento:</b> Enquanto estiver escalando ou nadando, cada 1,5 metro de deslocamento custa 1,5 metro adicional (3 metros 
+                        adicionais em terrenos difíceis), a menos que uma criatura tenha um deslocamento de escalada ou de natação. À critério do Mestre, subir uma 
+                        superfície vertical escorregadia ou um com poucos lugares para segurar-se exigirá sucesso em um teste de Força (Atletismo). Da mesma forma, 
+                        nadar qualquer distância em águas agitadas pode exigir sucesso em um  teste de Força (Atletismo).
+                    </li>
+                </ul>
+            </p>
+            <h3>Reação:</h3>
+            <p>
+                Certas habilidades especiais, magias e situações permitem que você realize uma ação especial chamada de reação. Uma reação é uma resposta instantânea a 
+                algum tipo de gatilho, que pode ocorrer no seu turno ou no de outrem. O ataque de oportunidade, descrito mais à frente nesse capítulo, é o tipo mais 
+                comum de reação. Quando você realiza uma reação, você não pode realizar outra até o início do seu próximo turno. Se a reação interrompeu o turno de outra criatura, 
+                aquela criatura pode continuar o turno depois da reação. 
+            </p>
+            <h3>Ação Bônus:</h3>
+            <p>
+                Variadas características de classe, magias e outras habilidades permitem que você realize uma ação extra no seu turno chamada ação bônus. A 
+                característica Ação Ardilosa, por exemplo, permite que o ladino realize uma ação bônus. Você pode realizar uma ação bônus somente quando uma habilidade 
+                especial, magia ou outra característica do jogo afirmar que você pode realizar algo como uma ação bônus. Caso contrário, você não tem uma ação bônus.<br><br>
+                Você pode realizar apenas uma ação bônus no seu turno, então você precisa escolher qual ação bônus usar quando tem mais de uma disponível. Você escolhe 
+                quando usar uma ação bônus no seu turno, a menos que o tempo da ação bônus seja especificado e algo o impeça de realizar ações, que também o impedirá de 
+                realizar uma ação bônus. 
+            </p>
+            <h2 id="ataque">Realizando um ataque:</h2>
+            <p>
+                A ação mais utilizada em um combate é, sem dúvidas, o ataque. Ele pode ser feito de diversas maneiras, desde ataques desarmados à ataques com armas ou 
+                magias. Nós podemos simplificar o ato de atacar assim:
+                <ol>
+                    <li>
+                        <b>Escolha o alvo:</b> Escolha um alvo dentro do alcance do ataque: uma criatura, um objeto, ou um local.
+                    </li>
+                    <li>
+                        <b>Determine os modificadores:</b> O Mestre determina se o alvo tem cobertura ou não e se você tem vantagem ou desvantagem contra o alvo. Além 
+                        disso, magias, habilidades especiais e outros efeitos podem aplicar penalidades ou bônus na jogada de ataque.
+                    </li>
+                    <li>
+                        <b>Resolva o ataque:</b> Você realiza uma jogada de ataque. Se acertar, joga o dano, a não ser que um ataque particular tenha regras específicas 
+                        que digam o contrário. Alguns ataques causam efeitos especiais em adição ou ao invés do dano.
+                    </li>
+                </ol>
+                Quando você realiza um ataque, sua jogada de ataque determina se o ataque acerta ou erra. Para realizar uma jogada de ataque, jogue um d20 e adicione os 
+                modificadores apropriados. Se o total da jogada, somado aos modificadores, igualar ou ultrapassar a <b>Classe de Armadura (CA)</b> do alvo, o ataque 
+                acerta. A CA de um personagem é determinada na criação do personagem, enquanto que a CA de um monstro está em seu bloco de estatísticas.<br><br>
+                Os modificadores da sua jogada de ataque são dois: o <b>Modificador de Habilidade</b>, que é determinado pelo atributo do ataque. A maior parte das 
+                armas corpo-a-corpo ataca com a Força, mas as com o atributo acuidade e arremesso usam Destreza, além das armas a distância. Algumas magias também pedem 
+                um teste de ataque, que é realizado com o atributo de conjuração determinado pela classe. O outro é o <b>Bônus de Proficiência</b> que você só soma se 
+                for com uma arma que você tenha proficiência, assim como uma magia aprendida.<br><br>
+                No caso de você rolar um 20 natural no dado, você tem um <b>Acerto Crítico</b>, ou seja, acerta o alvo automaticamente e pode jogar os dados de dano 
+                duas vezes, e somar o resultado. Por exemplo, se você acertasse um acerto crítico com uma arma que dá 2d6 de dano, agora você rolara 4d6 e somará todo 
+                o dano que dará de uma vez. Existem armas e habilidades que podem diminuir o número para o acerto crítico, como a habilidade Crítico Aprimorado do 
+                arquétipo Campeão da classe Guerreiro.
+            </p>
+            <h3>Ataques a Distância:</h3>
+            <p>
+                Quando você realiza um ataque à distância, você dispara uma flecha de um arco ou um virote de uma besta, arremessa uma machadinha ou conjura algum 
+                projétil para acertar um adversário à uma certa distância. Um monstro pode atirar espinhos de sua cauda. Muitas magias também envolvem realizar um 
+                ataque à distância. <br><br>
+                Você pode realizar um ataque à distância contra alvos dentro de um <b>alcance</b> especificado. Se um ataque à distância, como uma magia, tem uma única 
+                distância, você não pode atacar um alvo além dessa distância. Alguns ataques à distância, como um tiro de arco longo ou curto, têm duas distâncias. 
+                O menor número é a distância normal, e o maior número é a distância longa. A jogada de ataque tem desvantagem quando o alvo está além da distância 
+                normal, e você não pode atacar além da distância longa. <br><br>
+                Mirar um ataque à distância é mais difícil quando o adversário está adjacente. Quando você realiza um ataque à distância com uma arma, magia ou de 
+                alguma outra maneira, você tem desvantagem na jogada de ataque se estiver a 1,5 metro de uma criatura hostil a você que possa vê-lo e que não esteja 
+                incapacitada.
+            </p>
+            <h3>Ataques Corpo-a-Corpo</h3>
+            <p>
+                Usado em combate mano a mano, um ataque corpo-acorpo permite a você atacar um adversário dentro do seu alcance. Um ataque corpo-a-corpo geralmente usa 
+                uma arma empunhada, como uma espada, um martelo de guerra ou um machado. Um monstro típico realiza ataques corpo-a-corpo quando usa suas garras, 
+                chifres, dentes, tentáculos ou outra parte do corpo. Algumas magias também envolvem a realização de um ataque corpo-a-corpo. A maioria das criaturas 
+                possui <b>alcance</b> de 1,5 metro e, por isso, podem atacar alvos a até 1,5 metro delas quando realizam um ataque corpo-a-corpo. Certas criaturas 
+                (normalmente maiores que Média) têm ataques corpo-a-corpo com maior alcance que 1,5 metro, como explicado em suas descrições.<br>
+                Quando você está desarmado, ao invés de usar uma arma para realizar um ataque corpo-a-corpo armado, você realiza um <b>ataque desarmado</b>: um soco, 
+                chute, cabeçada ou golpe similar (nenhum deles contam como armas). Se atingir, um ataque desarmado causa dano de concussão igual a 1 + seu modificador 
+                de Força. Você é proficiente com seus ataques desarmados. <br><br>
+                Em uma luta, todos estão constantemente esperando seus inimigos baixarem as guardas. Você raramente pode passar descuidado por um inimigo sem se colocar 
+                em perigo, e fazê-lo provoca um <b>Ataque de Oportunidade</b>. Você pode realizar um ataque de oportunidade quando um inimigo que você possa ver se move 
+                para fora de seu alcance. Para realizar um ataque de oportunidade, você usa sua reação e realiza um ataque corpo-a-corpo contra a criatura que o 
+                provocou. O ataque interrompe o movimento da criatura um instante antes dela deixar seu alcance. <br><br>
+                Você pode evitar provocar um ataque de oportunidade realizando a ação <b>Desengajar</b>. Você também não provoca um ataque de oportunidade quando se 
+                teletransportar ou quando alguém ou alguma coisa mover você sem exigir que você use sua ação, deslocamento ou reação. Por exemplo, você não provoca um 
+                ataque de oportunidade se uma explosão arremessá-lo para fora do alcance de um adversário ou se a gravidade fizer você cair e passar pelo alcance de um 
+                inimigo. <br><br>
+                Ao atacar com um arma leve, se você estiver segurando uma outra arma leve na outra mão, você pode gastar sua ação bônus para atacar ou arremessar a 
+                segunda arma. Chamamos isso de <b>combater com duas armas</b>, e você não pode somar seu modificador de habilidade no segundo ataque, a não ser que ele 
+                seja negativo.<br><br>
+                <b>Agarrar</b> é uma ação especial que permite imobilizar uma criatura em combate. Durante sua ação de Ataque, você pode substituir um ataque comum por 
+                uma tentativa de agarrar, desde que o alvo esteja ao seu alcance e seja, no máximo, uma categoria de tamanho maior que a sua. Para isso, você deve ter 
+                pelo menos uma mão livre e realizar um teste de Força (Atletismo). O alvo, por sua vez, faz um teste resistido de Força (Atletismo) ou Destreza 
+                (Acrobacia), escolhendo a habilidade que preferir. Se você vencer, a criatura fica agarrada (condição), impedindo que ela se mova livremente, a menos 
+                que escape. Uma criatura agarrada pode usar uma ação para tentar se libertar, realizando um novo teste resistido de Força (Atletismo) ou Destreza 
+                (Acrobacia) contra o seu teste de Força (Atletismo). Se vencer, o agarrão é rompido. Enquanto mantém a criatura agarrada, você pode arrastá-la ou 
+                carregá-la ao se mover, mas seu deslocamento será reduzido pela metade, a menos que o alvo seja pelo menos duas categorias de tamanho menor que a sua.
+                <br><br>
+                Realizando a ação de Ataque, você pode fazer um ataque corpo-a-corpo especial para ir de encontro a uma criatura, seja derrubando-a ou empurrando-a para 
+                longe de você. Se você puder fazer múltiplos ataques com a ação de Ataque, esse ataque substitui um deles. O alvo do <b>encontrão</b> deve ter no 
+                máximo uma categoria de tamanho maior que a sua, e deve estar ao seu alcance. Você realiza um teste de Força (Atletismo) resistido pelo teste de Força 
+                (Atletismo) ou Destreza (Acrobacia) - o alvo decide que habilidade usar. Se você vencer o teste resistido, você pode derrubar o alvo no chão ou 
+                empurrá-lo 1,5 metro para longe de você. 
+            </p>
+            <h2 id="dano">Dano, cura e morrendo:</h2>
+            <p>
+                Cada criatura tem uma certa quantidade de <b>Pontos de Vida (PV)</b>, que podem ser perdidos (dano) ou recuperados (cura). Se um personagem cair menos 
+                de 0 pontos de vida, ele é dado como morrendo.
+            </p>
+            <h3>Dano:</h3>
+            <p>
+                Ao se suceder em um ataque, você causa uma certa quantia de dano. Depois de rolar a quantidade de dados definidos pelo ataque com uma arma, você deve 
+                adicionar seu <b>Modificador de Atributo</b>, que é definido pelo tipo de arma usada. Algumas magias específicas permitem, na sua descrição, somar o 
+                modificador. Diferentes ataques, magias e outros efeitos nocivos causam diferentes <b>tipos de dano</b>. Tipos de dano não têm regras próprias, mas 
+                outras regras, como resistência ao dano, dependem dos tipos de dano. Os tipos de dano estão listados à seguir, com exemplos para ajudar o Mestre a 
+                atribuir um tipo de dano a um novo efeito:
+                <ul>
+                    <li>Ácido;</li>
+                    <li>Concussão;</li>
+                    <li>Cortante;</li>
+                    <li>Elétrico;</li>
+                    <li>Energia;</li>
+                    <li>Fogo;</li>
+                    <li>Frio;</li>
+                    <li>Necrótico;</li>
+                    <li>Perfurante;</li>
+                    <li>Psíquico;</li>
+                    <li>Radiante;</li>
+                    <li>Trovejante;</li>
+                    <li>Veneno.</li>
+                </ul>
+                Os tipos de dano existem por causa da resistência e vulnerabilidade de algumas criaturas. A  <b>resistência</b> a um tipo de dano significa que todo o 
+                dano tomado desse tipo será cortado pela metade, enquanto a <b>vulnerabilidade</b> significa que todo o dano tomado do tipo será dobrado. Essa regra 
+                deve ser aplicada após a soma dos modificadores e não podem ser empilhadas (ter duas ou mais resistências/vulnerabilidades a um tipo de dano). Algumas 
+                habilidades, magias e armaduras mágicas dão essa característica ao personagem.
+            </p>
+            <h3>Cura</h3>
+            <p>
+                A não ser que resulte em morte, o dano não é permanente. Mesmo a morte é reversível através de magias poderosas. Descanso recupera pontos de vida de uma 
+                criatura, e métodos mágicos, como a magia curar ferimentos ou uma poção de cura, podem remover dano instantaneamente. <br>
+                Quando uma criatura recebe qualquer tipo de cura, os pontos de vida recuperados são adicionados aos pontos de vida atuais. Os pontos de vida de uma 
+                criatura não podem exceder o valor máximo da criatura, então qualquer ponto de vida recuperado que exceda o limite é perdido. Por exemplo, um druida 
+                cura 8 pontos de vida de um patrulheiro. Se os pontos de vida atuais do patrulheiro forem 14 e seu máximo de pontos de vida for 20, ele recupera 6 pela 
+                cura do druida, não 8. Uma criatura que morreu não pode recuperar pontos de vida até que uma magia como reviver tenha restaurado sua vida.<br><br>
+                <b>Pontos de vida temporários</b> são uma proteção extra que absorve dano antes de afetar seus pontos de vida reais. Eles não podem ser curados e não se
+                somam, mas podem exceder seu valor máximo de pontos de vida e só duram até serem usados, expirar o efeito que os concedeu ou você terminar um descanso 
+                longo. Quando sofre dano, os pontos temporários são perdidos primeiro. Por exemplo, se você tem 5 pontos temporários e sofre 7 de dano, perde os 
+                temporários e sofre 2 de dano real. Esses pontos não restauram sua consciência se você estiver com 0 pontos de vida, mas podem proteger contra novos 
+                danos enquanto durarem. Algumas magias e itens mágicos podem te conferir pontos de vida temporários.
+            </p>
+            <h3>Morrendo</h3>
+            <p>
+                Quando você cai a 0 pontos de vida, ou você morre direto ou fica inconsciente. Dano maciço pode matar instantaneamente. Quando um dano reduz seus 
+                pontos de vida a 0 e ainda há dano sobrando, você morre se o restante do dano que sobrou for igual ou maior do que seu máximo de pontos de vida. Por 
+                exemplo, uma clériga com um máximo de pontos de vida iguais a 12, está com 6 pontos de vida atuais. Se ela sofrer 18 de dano por um ataque, ela é 
+                reduzida a 0 pontos de vida, mas ainda sobraram 12 de dano. Como o dano que restou equivale ao seu máximo de pontos de vida, a clériga morre. Se um 
+                dano reduzir seus pontos de vida a 0 e não matalo, você cai inconsciente. Essa inconsciência acaba quando você recupera quaisquer pontos de vida. <br><br>
+                Ao reduzir uma criatura a 0 pontos de vida com um ataque corpo-a-corpo, você também pode escolher nocautear-lá. O atacante pode fazer essa escolha no 
+                instante que o dano é causado. A criatura cai inconsciente e está estável. 
+            </p>
+            <h4>Testes de Resistência Contra a Morte:</h4>
+            <p>
+                Quando você começa seu turno com 0 pontos de vida, deve fazer um teste de resistência contra a morte para determinar se sobrevive. Esse teste não depende 
+                de habilidades; você joga um d20 e precisa tirar 10 ou mais para ter sucesso. Com três sucessos, você estabiliza, mas com três falhas, morre. Esses 
+                resultados não precisam ser consecutivos e são zerados caso você recupere pontos de vida ou se estabilize. Resultados extremos também têm efeitos 
+                especiais: um 1 no dado conta como duas falhas, enquanto um 20 faz você recuperar 1 ponto de vida. Sofrer dano enquanto está inconsciente provoca falhas 
+                adicionais. Se for um acerto crítico, conta como duas falhas, e se o dano exceder seu máximo de pontos de vida, a morte é instantânea.
+            </p>
+            <h4>Estabilizando:</h4>
+            <p>
+                A maneira mais eficaz de salvar uma criatura com 0 pontos de vida é curá-la. Caso isso não seja possível, você pode estabilizá-la usando sua ação para 
+                administrar primeiros socorros com um teste de Sabedoria (Medicina) CD 10. Uma criatura estabilizada não faz mais testes de resistência contra a morte, mas 
+                continua inconsciente. Se sofrer dano, volta a precisar desses testes. Se não for curada, ela recupera 1 ponto de vida automaticamente após 1d4 horas.
+            </p>
+            <h2 id="fora">Recuperando-se do combate:</h2>
+            <p>Uma vez que você afugentou os inimigos e venceu o combate, o que fazer? É sobre isso que será esse tópico:</p>
+            <h3>Descanso:</h3>
+            <p>
+                Por mais heroicos que sejam, os aventureiros não podem gastar cada hora do dia no meio da exploração, interação social e do combate. Eles precisam 
+                descansar - tempo para dormir e comer, cuidar de seus ferimentos, atualizar suas mentes e espíritos para conjurar magias, e se prepararem para mais 
+                aventuras. Qualquer criatura pode fazer descansos curtos no meio de um dia de aventura e um descanso longo ao fim do dia. <br><br>
+                Um <b>descansco curto</b> dura pelo menos 1 hora, durante a qual o personagem realiza apenas atividades leves, como comer, beber ou tratar ferimentos. 
+                No final do descanso, o personagem pode usar seus <b>Dados de Vida</b> para recuperar pontos de vida, até o limite igual ao seu nível. Para cada Dado de 
+                Vida gasto, o jogador rola o dado, adiciona o modificador de Constituição e recupera a quantidade correspondente de pontos de vida (mínimo de 0). É 
+                possível decidir gastar mais Dados de Vida após cada rolagem. Dados de Vida gastos são parcialmente recuperados após um descanso longo.<br><br>
+                Um <b>descanso longo</b> dura pelo menos 8 horas, com o personagem dormindo ou realizando atividades leves, como ler ou comer, por até 2 horas. Se o 
+                descanso for interrompido por atividades extenuantes, como combate ou conjuração de magias, ele precisa ser reiniciado para ter efeito. Ao final do 
+                descanso, o personagem recupera todos os pontos de vida e metade dos Dados de Vida gastos, arredondando para baixo. Esse tipo de descanso só pode ser 
+                realizado uma vez a cada 24 horas e exige que o personagem tenha pelo menos 1 ponto de vida no início para obter seus benefícios.
+            </p>
+            <h2 id="condicao">Condições</h2>
+            <p>
+                Existem diversas condições que podem ser obtidas pelos personagens a partir de situações, movimentos ou magias:
+                <ul>
+                    <li>
+                        <b>Agarrado:</b> O deslocamento de uma criatura agarrada se torna 0, e ela não pode se beneficiar de qualquer bônus em seu deslocamento; A 
+                        condição encerra caso a criatura que a agarrou fique incapacitada (veja a condição); A condição se encerra se um efeito, como o causado pela 
+                        magia onda trovejante, remover a criatura agarrada do alcance da criatura que a agarrou ou do efeito que causa a condição.
+                    </li>
+                    <li>
+                        <b>Amedrontado:</b> Uma criatura amedrontada sofre desvantagem em testes de habilidade e jogadas de ataque enquanto a fonte do seu medo estiver 
+                        em sua linha de visão; A criatura não pode se mover voluntariamente para uma posição que a faça terminar o turno mais próxima da sua fonte de 
+                        medo do que sua posição inicial.
+                    </li>
+                    <li>
+                        <b>Atordoado:</b> Uma criatura atordoada está incapacitada (veja a condição). Ela não pode se mover e somente pode falar hesitantemente; A 
+                        criatura falha automaticamente em testes de resistência de Força ou Destreza; Jogadas de ataque contra a criatura possuem vantagem.
+                    </li>
+                    <li>
+                        <b>Caído:</b> A única opção de movimento que uma criatura caída tem é rastejar, a menos que ela se levante, encerrando assim a condição; A 
+                        criatura sofre desvantagem nas jogadas de ataque; Uma jogada de ataque contra a criatura possui vantagem se o atacante estiver a 1,5 metro dela. 
+                        De qualquer outra forma a jogada sofre desvantagem.
+                    </li>
+                    <li>
+                        <b>Cego:</b> Uma criatura cega falha automaticamente em qualquer teste de habilidade que requeira o uso da visão; Jogadas de ataque contra a 
+                        criatura possuem vantagem, e os ataques da criatura sofrem desvantagem.
+                    </li>
+                    <li>
+                        <b>Enfeitiçado:</b> Uma criatura enfeitiçada não pode atacar quem a enfeitiçou ou tê-lo como alvo de habilidades ou efeitos mágicos nocivos; 
+                        Quem a enfeitiçou possui vantagem em testes de habilidade feitos para interagir socialmente com a criatura.
+                    </li>
+                    <li>
+                        <b>Envenenado:</b> Uma criatura envenenada sofre desvantagem em jogadas de ataque e testes de habilidade.
+                    </li>
+                    <li>
+                        <b>Exausto:</b> A exaustão é uma condição com seis níveis, causada por efeitos como fome ou exposição a condições extremas. Cada nível acumula 
+                        os efeitos dos anteriores, piorando progressivamente. Os níveis incluem: desvantagem em testes de habilidade (nível 1), deslocamento reduzido à 
+                        metade (nível 2), desvantagem em ataques e testes de resistência (nível 3), redução do máximo de pontos de vida à metade (nível 4), deslocamento 
+                        zero (nível 5) e morte (nível 6). A exaustão aumenta conforme novos efeitos são aplicados, mas pode ser reduzida. Um descanso longo, junto com 
+                        água e comida, diminui a exaustão em um nível. Ao alcançar menos de 1 nível, todos os efeitos desaparecem.
+                    </li>
+                    <li>
+                        <b>Impedido:</b> O deslocamento de uma criatura impedida se torna 0, e ela não pode se beneficiar de qualquer bônus em seu deslocamento; Jogadas 
+                        de ataque contra a criatura possuem vantagem, e os ataques da criatura sofrem desvantagem; A criatura sofre desvantagem em testes de resistência 
+                        de Destreza.
+                    </li>
+                    <li>
+                        <b>Incapacitado:</b> Uma criatura incapacitada não pode realizar ações oureações.
+                    </li>
+                    <li>
+                        <b>Inconsciente:</b> Uma criatura inconsciente está incapacitada (veja a condição). Ela não pode se mover ou falar e não tem ciência de seus 
+                        arredores; A criatura larga tudo que estiver segurando e fica caída; A criatura falha automaticamente em testes de resistência de Força ou 
+                        Destreza; Jogadas de ataque contra a criatura possuem vantagem; Qualquer ataque que atinja a criatura é um acerto crítico, se o atacante estiver 
+                        a 1,5 metro dela.
+                    </li>
+                    <li>
+                        <b>Invisível:</b> Uma criatura invisível é impossível de ser vista sem a ajuda de magia ou sentidos especiais. Para o propósito de se esconder, 
+                        a criatura é considerada em área de escuridão densa. A localização da criatura pode ser detectada por qualquer barulho que ela faça ou rastros 
+                        que ela deixe; Jogadas de ataque contra a criatura sofrem desvantagem, e os ataques da criatura possuem vantagem.                        
+                    </li>
+                    <li>
+                        <b>Paralisado:</b> Uma criatura paralisada está incapacitada (veja a condição). Ela não pode se mover ou falar; A criatura falha automaticamente 
+                        em teste de resistência de Força e Destreza; Jogadas de ataque contra a criatura possuem vantagem; Qualquer ataque que atinja a criatura é um 
+                        acerto crítico, se o atacante estiver a 1,5 metro dela.
+                    </li>
+                    <li>
+                        <b>Petrificado:</b> Uma criatura petrificada está transformada, juntamente com todos os objetos não-mágicos que estiver vestindo ou carregando, 
+                        em uma substância sólida e inanimada (geralmente pedra). Seu peso é multiplicado por dez, e ela para de envelhecer; A criatura está incapacitada 
+                        (veja a condição), não pode se mover ou falar, e não tem ciência de seus arredores.• Jogadas de ataque contra a criatura possuem vantagem; A 
+                        criatura falha automaticamente em testes de resistência de Força e Destreza; A criatura tem resistência a todos os tipos de dano; A criatura é 
+                        imune a veneno e doenças, embora um veneno ou doença previamente presente em seu sistema seja apenas suspenso, não neutralizado.
+                    </li>
+                    <li>
+                        <b>Surdo:</b> Uma criatura surda falha automaticamente em qualquer teste de habilidade que requeira o uso da audição.
+                    </li>
+                </ul>
+            </p>
         </div>
     </div>
 </body>
