@@ -83,6 +83,10 @@ nav h2 {
     text-align: justify;
 }
 
+.texto img {
+    width: 100%;
+}
+
 .texto h2 {
     margin-top: 120px;
 }
